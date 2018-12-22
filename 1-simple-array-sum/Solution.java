@@ -10,6 +10,7 @@ public class Solution {
     static int simpleArraySum(int[] ar) {
         return Arrays.stream(ar).reduce(Integer::sum).getAsInt();
     }
+    // END of Challenge
 
     private static final Scanner scanner = new Scanner(System.in);
 
